@@ -49,8 +49,8 @@ function init() {
      * @returns {number[]} - Coordinates in Array
      */
     function getCoordinates(time) {
-        // TODO: implement body of this function
-        return [0.0, 1.0];
+        // TODO: implement body of this function 
+        //return [time * Math.round(Math.min(this.context.canvas.width, this.context.canvas.height) / 3) * Math.sin(this.context.canvas.width / 2), time * Math.round(Math.min(this.context.canvas.width, this.context.canvas.height) / 3) * Math.cos(this.context.canvas.height / 2)];
     }
 
     /**
